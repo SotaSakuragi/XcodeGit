@@ -13,6 +13,8 @@ class ViewController: UIViewController {
     
 
     @IBAction func button(_ sender: UIButton) {
+        panda.image = UIImage(named: "egg01")
+        
     }
     override func viewDidLoad() {
         super.viewDidLoad()
